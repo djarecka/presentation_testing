@@ -50,6 +50,8 @@ layout: false
 
 ### <span style="color:purple"> Why do we test software?</span>
 
+&nbsp;
+
 --
 
 - mistakes happens and always will
@@ -69,6 +71,8 @@ layout: false
 
   - helps you to write a better code
 
+&nbsp;
+
 --
 
 - improves readability of your code
@@ -78,19 +82,30 @@ layout: false
   - helps to reuse your code
 
 ---
-###<span style="color:purple">Why do we need containers?</span>
-
-### Freedom to experiment!
-
---
-- Universal Install Script from xkcd: *The failures usually don’t hurt anything...*
- And usually all your old programs work...
-
+###<span style="color:purple">Various types of tests</span>
 
 --
 
-- We try to avoid
-  - I just want to Undo the last five hours of my life...
+- Unit tests
+  - test isolated parts of the program
+
+&nbsp;
+
+--
+
+- Integration tests
+
+  - combine individual software modules and test as a group
+
+&nbsp;
+
+--
+
+- Regression tests
+
+  - verify that software previously developed and tested still performs correctly even after it was changed or interfaced with other software
+  - you don't have to knows the expected result, the assumption is that the past results were correct.
+
 ---
 ### <span style="color:purple">Virtual Machines and Container Technologies</span>
 
