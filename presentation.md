@@ -25,9 +25,9 @@ class: center, middle, inverse
 ## Learning objectives
 ---
 layout: false
-- ## What are the various types of tests people are using
-- ## Why do we write tests
-- ## What are the Python framework for testing
+- ### What are the various types of tests people are using
+- ### Why do we write tests
+- ### What are the Python framework for testing
 
 ---
 name: inverse
@@ -37,8 +37,8 @@ class: center, middle, inverse
 ## Requirements
 ---
 layout: false
-- ## Python (basics of NumPy, Jupyter)
-- ## Nipype Function Interfaces
+- ### Python (basics of NumPy, Jupyter)
+- ### Nipype Function Interfaces
 ---
 name: inverse
 layout: true
@@ -50,11 +50,14 @@ layout: false
 
 ### <span style="color:purple"> Why do we test software?</span>
 --
+
 - mistakes happens and always will
 --
+
   - guard against them
   - raise your confidence during development
 --
+
 - makes you think about desirable output
 --
   - helps you to write a better code
