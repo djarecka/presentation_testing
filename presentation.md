@@ -60,7 +60,6 @@ layout: false
   - raise your confidence during development
 
 &nbsp;
-&nbsp;
 
 --
 
