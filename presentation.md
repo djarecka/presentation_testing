@@ -49,13 +49,16 @@ class: center, middle, inverse
 layout: false
 
 ### <span style="color:purple"> Why do we test software?</span>
+
 --
 
 - mistakes happens and always will
+
 --
 
   - guard against them
   - raise your confidence during development
+
 --
 
 - makes you think about desirable output
