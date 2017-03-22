@@ -62,12 +62,15 @@ layout: false
 --
 
 - makes you think about desirable output
+
 --
 
   - helps you to write a better code
+
 --
 
 - improves readability of your code
+
 --
 
   - helps to reuse your code
