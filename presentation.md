@@ -6,17 +6,16 @@ class: center, middle, inverse
 
 ---
 layout: false
-.left-column[
-  ## Outline
-]
-.right-column[
-### Learning objectives
-### Requirements
-### Introduction
-### Tools
-### Exercises
-### Review questions
-]
+<span style="color:purple">
+## Outline
+
+- ### Learning objectives
+- ### Requirements
+- ### Introduction
+- ### Tools
+- ### Exercises
+- ### Review questions
+</span>
 
 ---
 name: inverse
@@ -25,40 +24,46 @@ class: center, middle, inverse
 ---
 ## Learning objectives
 ---
-
 layout: false
-### <span style="color:purple">Why do we need containers?</span>
+- ## What are the various types of tests people are using
+- ## Why do we write tests
+- ## What are the Python framework for testing
 
-### Science Reproducibility
---
-
-  - Each project in a lab depends on complex software environments
-    - operating system
-    - drivers
-    - software dependencies: Python/MATLAB/R + libraries
-&nbsp;
-
---
-
-  - We try to avoid
-    - the computer I used was shut down a year ago, can’t rerun the results from my publication...
-    - the analysis were run by my student, have no idea where and how...
-    - etc.
 ---
-### <span style="color:purple"> Why do we need containers?</span>
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+## Requirements
+---
+layout: false
+- ## Python (basics of NumPy, Jupyter)
+- ## Nipype Function Interfaces
+---
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+## Introduction
+---
+layout: false
+
+### <span style="color:purple"> Why do we test software?</span>
+--
+- mistakes happens and always will
+--
+  - guard against them
+  - raise your confidence during development
+--
+- makes you think about desirable output
+--
+  - helps you to write a better code
+--
+- improves readability of your code
+--
+  - helps to reuse your code
 --
 
-### Collaboration with your colleagues
---
-
-- Sharing your code or using a repository might not be enough
---
-
-- We try to avoid
-  - well, I forgot to mention that you have to use Clang, gcc never worked for me...
-  - don’t see any reason why it shouldn’t work on Windows...(I actually have no idea about Windows, but won’t say it...)
-  - it works on my computer...
-  - etc.
 ---
 ###<span style="color:purple">Why do we need containers?</span>
 
