@@ -121,6 +121,8 @@ class: center, middle, inverse
 ---
 ## Tools
 ---
+layout: false
+
 ### <span style="color:purple">Unit tests with simple assert statement</span>
 
 ```python
