@@ -126,35 +126,36 @@ layout: false
 ### <span style="color:purple">Unit tests with simple assert statement</span>
 
 ```python
-def mean_abs(a):
-    return sum(a) / len(a)
-```
+def mean_diameter(radius):
+    diameter = 2 * radius
+    return sum(diameter) / len(diameter)```
 
 --
 
 ```python
-assert mean_abs([3, -4, 5]) == 4
+assert mean_diameter([3, 4, 5]) == 8
 ```
 
 ---
 ### <span style="color:purple">Unit tests with Unittest built-in library</span>
 
 ```python
-def mean_abs(a):
-    return sum(a) / len(a)
-
+def mean_diameter(radius):
+    diameter = 2 * radius
+    return sum(diameter) / len(diameter)
 
 import unittest
 
 class TestDiv(unittest.TestCase):
     def test_div5(self):
-        self.assertEqual(mean_abs([3, -4, 5]), 4)
+        self.assertEqual(mean_diameter([3, 4, 5]), 8)
 
 if __name__ == ’__main__’:
     unittest.main()
 ```
 
 --
+
 - supports test automation
 
 - but a lot of boilerplate code
@@ -163,20 +164,45 @@ if __name__ == ’__main__’:
 ### <span style="color:purple">Unit tests with Pytest library</span>
 
 ```python
-def mean_abs(a):
-    return sum(a) / len(a)
-
+def mean_diameter(radius):
+    diameter = 2 * radius
+    return sum(diameter) / len(diameter)
 
 def test_with_pytest():
-    assert mean_abs([3, -4, 5]) == 4
+    assert mean_diameter([3, 4, 5]) == 8
 ```
+
 --
+
 - it’s easy to get started
+
 - straightforward asserting with the assert statement
+
 - helpful traceback and failing assertion reporting
+
 - automatic test discovery
 ---
 
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+## Exercises
+---
+layout: false
+TODO
+
+- output of a function
+- type of an object
+- parametrization of arguments
+- fixtures to create data
+- skipping test: skipif
+- expecting tests to fail: xfail
+- testing exceptions: pytest.raises 
+-
+
+
+---
 name: inverse
 layout: true
 class: center, middle, inverse
