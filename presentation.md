@@ -6,8 +6,7 @@ class: center, middle, inverse
 
 ---
 layout: false
-<span style="color:purple">
-## Outline
+<span style="color:purple">## Outline</span>
 
 - ### Learning objectives
 - ### Requirements
@@ -15,7 +14,6 @@ layout: false
 - ### Tools
 - ### Exercises
 - ### Review questions
-</span>
 
 ---
 name: inverse
@@ -25,9 +23,12 @@ class: center, middle, inverse
 ## Learning objectives
 ---
 layout: false
-- ### What are the various types of tests people are using
-- ### Why do we write tests
-- ### What are the Python framework for testing
+
+- What are the various types of tests people are using
+
+- Why do we write tests
+
+- What are the Python framework for testing
 
 ---
 name: inverse
@@ -37,8 +38,11 @@ class: center, middle, inverse
 ## Requirements
 ---
 layout: false
-- ### Python (basics of NumPy, Jupyter)
-- ### Nipype Function Interfaces
+
+- Python (basics of NumPy, Jupyter)
+
+- Nipype Function Interfaces
+
 ---
 name: inverse
 layout: true
@@ -136,6 +140,11 @@ def mean_diameter(radius):
 assert mean_diameter([3, 4, 5]) == 8
 ```
 
+--
+
+- no meaningfull output
+
+- no automation
 ---
 ### <span style="color:purple">Unit tests with Unittest built-in library</span>
 
@@ -198,7 +207,7 @@ TODO
 - fixtures to create data
 - skipping test: skipif
 - expecting tests to fail: xfail
-- testing exceptions: pytest.raises 
+- testing exceptions: pytest.raises
 -
 
 
