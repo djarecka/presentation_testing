@@ -142,7 +142,7 @@ assert mean_diameter([3, 4, 5]) == 8
 
 --
 
-- no meaningfull output
+- no meaningful output
 
 - no automation
 ---
