@@ -197,7 +197,7 @@ layout: false
 ```bash
 assert Expression[, Arguments]
 ```
-- Python evaluate the Expression to either True or False
+- Python evaluates the Expression to either True or False
 
 - if the Expression is false, `assert` returns an `AssertionError`
 
@@ -284,6 +284,9 @@ layout: false
 
 - pytest
 
+
+&nbsp;
+
 --
 
 Which framework should you use?
@@ -326,10 +329,13 @@ Which framework should you use?
 
 - Integrating the test suite into the development process
 
-  - Automated building and checking that code every time the repository changes
+  - Building and checking the code every time the repository changes
   - Using various environments for testing the code
 
-- Continuous Integration Service
+
+  &nbsp;
+
+- Continuous Integration Services
 
   - Travis CI
   - CircleCI
