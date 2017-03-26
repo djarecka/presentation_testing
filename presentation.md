@@ -143,7 +143,7 @@ layout: false
 - Unit tests
 
   - work on isolated parts (units) of the program
-  - verify that units operate correctly in various scenarios represent those assumptions in the code.
+  - verify that units operate correctly in various scenarios
   - usually compare observed results to well known expected results
 
 
@@ -162,12 +162,6 @@ layout: false
 
   - you don't have to knows the expected result, the assumption is that the past results were correct.
 
---
-
-- and many others...
-
-**We will concentrate on unit and regression tests**
-
 ---
 
 ### <span style="color:purple">Science and software testing</span>
@@ -176,10 +170,14 @@ layout: false
 
 - When writing a program we often execute a simple example first and check the output
 
+&nbsp;
+
 --
 
 - Writing software tests for your scientific code is:
+
   - translating your ideas for verification to programming code
+
   - automating the process of verification, so you can do it on a regular basis
 
 ---
@@ -190,6 +188,8 @@ class: center, middle, inverse
 ---
 ## Exercises
 ---
+layout: false
+
 ### <span style="color:purple">Assert statement</span>
 
 &nbsp;
