@@ -46,7 +46,7 @@ layout: false
    or
   - Python + Pytest
 
- - You:
+- You:
 
   - Python (basics of NumPy, Jupyter)
 
@@ -75,7 +75,7 @@ layout: false
 
 --
 
-<img src="img/twits.png" width="80%" />
+<img src="img/twits.png" width="70%" />
 
 
 ---
@@ -87,14 +87,19 @@ layout: false
 --
 
 - It started harmlessly:
+
   - *A team member was doing a bit of maintenance on Amazon Web Services Tuesday...*
+
 --
+
   - *With a few mistaken keystrokes, ...*
+
 --
+
   - *... The cascading failure meant that many websites could no longer make changes to the information stored on Amazon's cloud platform....*
 
 --
-- Amazon said. ***We have modified this tool** to remove capacity more slowly and **added safeguards to prevent** capacity from being removed when it will take any subsystem below its minimum required capacity level.*
+- Amazon said: *We have modified this tool to remove capacity more slowly and **added safeguards to prevent** capacity from being removed when it will take any subsystem below its minimum required capacity level.*
 
 --
 
@@ -111,7 +116,7 @@ layout: false
 
 &nbsp;
 
-<img src="img/retraction_letter.png" width="70%" />
+<img src="img/retraction_letter.png" width="65%" />
 
 &nbsp;
 
