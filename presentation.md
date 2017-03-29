@@ -253,6 +253,8 @@ Check the output of your function for these examples:
 
 - list: `[4, 3, 4, 3]`, expected output: `[0, 2]`
 
+- list: `[1, 2, 3]`, expected output: `[2]`
+
 ---
 ### <span style="color:purple">Finding the mean absolute value of the list of pseudo-random numbers </span>
 
@@ -342,7 +344,14 @@ Which framework should you use?
 
 Example of travis file from Nipype project is [here](https://github.com/nipy/nipype/blob/master/.travis.yml).
 
+---
+### <span style="color:purple">External resources</span>
 
+- [Software Carpentry](http://katyhuff.github.io/python-testing/index.html)
+
+- [Nice presentation with hands-on examples](https://github.com/ASPP/testing_debugging_profiling)
+
+- [Neurohackweek: Satra's slides](https://github.com/neurohackweek/nhw-lesson-testing)
 ---
 name: inverse
 layout: true
