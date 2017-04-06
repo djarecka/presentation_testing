@@ -381,9 +381,12 @@ Which framework should you use?
 #### Use pytest features to rewrite your tests sets
 
 - read about [parametrization](https://docs.pytest.org/en/latest/parametrize.html) and try to use it within your test functions
+
 - read about [skip/xfail](https://docs.pytest.org/en/latest/skipping.html) and
  and [exceptions check](https://docs.pytest.org/en/latest/assert.html#assertions-about-expected-exceptions), try to use it in your existing tests and write new tests
+
 - check if your functions still pass all tests
+
 - if your tests fail rewrite the function or at least use `pytest.mark.xfail`  and provide the `reason`
 
 --
