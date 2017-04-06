@@ -251,6 +251,7 @@ assert Expression[, Arguments]
 - write the python code to automatically test your solution
 --
 
+&nbsp;
 An exemplary solution can be found [here](http://nbviewer.jupyter.org/github/nipy/workshops/blob/master/170327-nipype/notebooks/testing/solutions/sector_area.ipynb)
 
 ---
