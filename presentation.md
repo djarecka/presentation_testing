@@ -243,12 +243,14 @@ assert Expression[, Arguments]
 
 <img src="img/sector.png" width="40%" />
 --
+
 - try to derive the equation
 - think about examples you can use to verify your solution, e.g.:
   - what is the area when angle is 0?
   - what is the area when angle is 360 deg?
 - write the python code to automatically test your solution
 --
+
 An exemplary solution can be found [here](http://nbviewer.jupyter.org/github/nipy/workshops/blob/master/170327-nipype/notebooks/testing/solutions/sector_area.ipynb)
 
 ---
@@ -265,6 +267,8 @@ Check the output of your function for these examples:
 - list: `[1, 2, 3]`, expected output: `[2]`
 
 --
+
+&nbsp;
 An exemplary solution can be found [here](http://nbviewer.jupyter.org/github/nipy/workshops/blob/master/170327-nipype/notebooks/testing/solutions/maxima.ipynb)
 
 ---
@@ -282,6 +286,9 @@ An exemplary solution can be found [here](http://nbviewer.jupyter.org/github/nip
   - the saved value can be used in a simple regression test as the expected value
 
 --
+
+&nbsp;
+
 An exemplary solution can be found [here](http://nbviewer.jupyter.org/github/nipy/workshops/blob/master/170327-nipype/notebooks/testing/solutions/random_numbers.ipynb)
 ---
 name: inverse
@@ -358,7 +365,15 @@ Which framework should you use?
   pytest -v
   ```
 --
+
+&nbsp;
+
 - an exemplary directory with all functions and tests can be found [here](https://github.com/nipy/workshops/tree/master/170327-nipype/notebooks/testing/pytest_solutions)
+
+
+---
+### <span style="color:purple">Unit tests with Pytest library</span>
+
 
 #### Use pytest features to rewrite your tests sets
 
@@ -367,6 +382,10 @@ Which framework should you use?
  and [exceptions check](https://docs.pytest.org/en/latest/assert.html#assertions-about-expected-exceptions), try to use it in your existing tests and write new tests
 - check if your functions still pass all tests
 - if your tests fail rewrite the function or at least use `pytest.mark.xfail`  and provide the `reason`
+
+--
+
+&nbsp;
 
 - an exemplary directory with all functions and tests can be found [here](https://github.com/nipy/workshops/tree/master/170327-nipype/notebooks/testing/pytest_mark_solutions)
 
